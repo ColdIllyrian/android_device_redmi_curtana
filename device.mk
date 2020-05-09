@@ -14,6 +14,8 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/redmi/curtana/curtana-vendor.mk)
 
+# Properties
+-include $(LOCAL_PATH)/vendor_prop.mk
 -include $(LOCAL_PATH)/product_prop.mk
 
 PRODUCT_BUILD_SUPER_PARTITION := false
