@@ -129,6 +129,12 @@ PRODUCT_PACKAGES += \
     memtrack.atoll \
     vendor.qti.hardware.display.allocator-service
 
+# Display interfaces
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.display.composer@1.0.vendor \
+    vendor.qti.hardware.display.composer@2.0.vendor \
+    vendor.qti.hardware.display.mapper@1.1.vendor \
+
 # Device init scripts
 PRODUCT_PACKAGES += \
     init.class_main.sh \
