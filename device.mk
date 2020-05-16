@@ -110,6 +110,11 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne \
     services-ext
 
+# Codec2 modules
+PRODUCT_PACKAGES += \
+    com.android.media.swcodec \
+    libsfplugin_ccodec
+
 # Device init scripts
 PRODUCT_PACKAGES += \
     init.class_main.sh \
