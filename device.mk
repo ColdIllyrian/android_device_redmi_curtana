@@ -115,6 +115,20 @@ PRODUCT_PACKAGES += \
     com.android.media.swcodec \
     libsfplugin_ccodec
 
+# Display/Graphics
+PRODUCT_PACKAGES += \
+    android.hardware.graphics.composer@2.3-service \
+    android.hardware.graphics.mapper@2.0-impl-qti-display \
+    android.hardware.memtrack@1.0-impl \
+    android.hardware.memtrack@1.0-service \
+    gralloc.atoll \
+    hwcomposer.atoll \
+    libdisplayconfig \
+    libtinyxml \
+    libvulkan \
+    memtrack.atoll \
+    vendor.qti.hardware.display.allocator-service
+
 # Device init scripts
 PRODUCT_PACKAGES += \
     init.class_main.sh \
