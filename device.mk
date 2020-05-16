@@ -104,6 +104,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Snap
 
+# CNE
+PRODUCT_PACKAGES += \
+    cneapiclient \
+    com.quicinc.cne \
+    services-ext
+
 # Device init scripts
 PRODUCT_PACKAGES += \
     init.class_main.sh \

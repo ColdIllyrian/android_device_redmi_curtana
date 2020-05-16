@@ -115,6 +115,9 @@ TARGET_TS_MAKEUP := false
 # Charger Mode
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
+# CNE
+BOARD_USES_QCNE := true
+
 # Dex
 ifeq ($(HOST_OS),linux)
   ifneq ($(TARGET_BUILD_VARIANT),eng)
@@ -124,6 +127,9 @@ endif
 
 # Display
 TARGET_USES_HWC2 := true
+
+# DPM
+BOARD_USES_DPM := true
 
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
