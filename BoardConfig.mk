@@ -147,6 +147,10 @@ ifeq ($(TARGET_PREBUILT_KERNEL),)
   TARGET_KERNEL_SOURCE := kernel/redmi/sm7125
 endif
 
+# Media
+TARGET_DISABLED_UBWC := true
+TARGET_USES_MEDIA_EXTENSIONS := true
+
 # Platform
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno618
 
