@@ -398,6 +398,15 @@ PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-service
 
 # Wifi
+PRODUCT_PACKAGES += \
+    android.hardware.wifi@1.0-service \
+    hostapd \
+    libwifi-hal-ctrl \
+    libwifi-hal-qcom \
+    libwpa_client \
+    wpa_supplicant \
+    wpa_supplicant.conf
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini \
