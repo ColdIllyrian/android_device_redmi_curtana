@@ -305,6 +305,16 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
 
+# RIL
+PRODUCT_PACKAGES += \
+    android.hardware.radio.config@1.0 \
+    android.hardware.radio@1.4 \
+    android.hardware.secure_element@1.0 \
+    libjson \
+    libprotobuf-cpp-full \
+    librmnetctl \
+    libxml2
+
 # Rootdir
 PRODUCT_PACKAGES += \
     init.class_main.sh \
