@@ -130,7 +130,8 @@ PRODUCT_PACKAGES += \
     libtinyxml \
     libvulkan \
     memtrack.atoll \
-    vendor.qti.hardware.display.allocator-service
+    vendor.qti.hardware.display.allocator-service \
+    vendor.display.config@1.11.vendor \
 
 # Display interfaces
 PRODUCT_PACKAGES += \
