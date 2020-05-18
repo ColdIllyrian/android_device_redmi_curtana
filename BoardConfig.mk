@@ -233,11 +233,7 @@ TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 TARGET_TAP_TO_WAKE_NODE := "/dev/input/event3"
 
 # Properties
-
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
-
-# Treble
-BOARD_VNDK_VERSION := current
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
